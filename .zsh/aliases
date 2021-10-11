@@ -1,0 +1,23 @@
+# config alias
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# kubectl commands
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgcf='kubectl get configmap'
+alias kgd='kubectl get deploy'
+alias kgp='kubectl get pods'
+alias kwp='watch kubectl get pods'
+alias kgs='kubectl get secret'
+alias kgss='kubectl get statefulset'
+
+# terraform
+alias tf='terraform'
+
+# ansible
+alias ap='ansible-playbook'
+alias api='ansible-playbook -i'
+alias ai='ansible-inventory'
+alias av='ansible-vault'
+alias avv='ansible-vault view'
+alias ave='ansible-vault edit'
